@@ -93,6 +93,7 @@ var playScreenAnimateDone = function(screenCls) {
 }
 
 window.onload = function() {
+	console.log(1);
 	for (k in screenAnimateElements) {
 		if (k === '.screen-1') {
 			continue;
